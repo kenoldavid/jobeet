@@ -1,0 +1,30 @@
+
+# Cache and Logs
+app/cache/*
+app/logs/*
+
+# Parameters
+app/config/parameters.yml
+
+# Managed by Composer
+app/bootstrap.php.cache
+bin
+vendor
+
+# Assets
+web/bundles/
+web/uploads/
+
+# PHPUnit
+app/phpunit.xml
+
+build/
+
+# Composer PHAR
+composer.phar
+
+
+# Eclipse IDE
+.project
+.settings/*
+.buildpath
